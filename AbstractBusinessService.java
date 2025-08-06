@@ -230,7 +230,7 @@ public abstract class AbstractBusinessService {
                 }
                 catch (Exception e) {
                     // cannot access the property
-                    continue;
+                    // ignore bean description and keep collected values
                 }
 
                 ret.add(newMap);
